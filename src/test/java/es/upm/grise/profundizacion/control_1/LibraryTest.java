@@ -40,7 +40,7 @@ public class LibraryTest {
 		libr.addBook(tarzan);
 		assertEquals(tarzan,libr.getBook("Tarzan"));
 	}
-	//Tests pregunta 5
+	//Tests pregunta 5 
 	@Test
 	public void libroborradoNoExistente() throws DuplicatedBookException {
 		
