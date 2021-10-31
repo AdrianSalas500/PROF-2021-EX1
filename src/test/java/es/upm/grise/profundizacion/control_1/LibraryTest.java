@@ -34,7 +34,7 @@ public class LibraryTest {
 				});
 	}
 	@Test
-	public void libroañadido() throws NonExistingBookException, EmptyLibraryException, DuplicatedBookException {
+	public void libroanadido() throws NonExistingBookException, EmptyLibraryException, DuplicatedBookException {
 		Library libr = new Library();
 		Book tarzan = new Book("Tarzan");
 		libr.addBook(tarzan);
